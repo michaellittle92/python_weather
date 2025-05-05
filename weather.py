@@ -15,3 +15,9 @@ def get_weather():
     icon = weather[0]['icon']
     return(main, description, icon)
 
+
+def main(): 
+    main, description, icon = get_weather()
+    print(f"main: {main}, description: {description}, icon = {icon}")
+
+main()
